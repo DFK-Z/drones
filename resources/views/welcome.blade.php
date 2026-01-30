@@ -20,7 +20,7 @@
         <section class="mb-12 text-center">
             <h1 class="text-4xl font-bold text-gray-900 mb-4">Беспилотные авиационные системы</h1>
             <div class="inline-block px-6 py-2 bg-blue-600 text-white text-xl font-semibold rounded-lg hover:bg-blue-700 transition-colors">
-                СП-1-22
+                25.02.08
             </div>
             <p class="mt-4 text-lg text-gray-600">Специальность для будущих инженеров и операторов БПЛА</p>
         </section>
@@ -76,7 +76,7 @@
             <h2 class="text-3xl font-bold text-center mb-8 text-gray-900">Преимущества обучения в нашем колледже</h2>
             <p class="text-xl text-center mb-10 text-gray-700">Мы предоставляем все условия для получения качественного образования:</p>
 
-            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <div class="grid ml-14 grid-cols-1 md:grid-cols-2 gap-8">
                 <div class="space-y-6">
                     <div class="flex items-start">
                         <div class="flex-shrink-0 w-8 h-8 bg-green-500 rounded-full flex items-center justify-center mr-4">
@@ -200,15 +200,60 @@
             </div>
         </section>
 
+        <!-- Сколько мы учимся -->
+        <section>
+            <div class="grid grid-cols-1 gap-5 bg-white p-3 rounded-xl shadow-md hover:shadow-lg transition-shadow mb-10 text-lg text-gray-700">
+                <div class="text-center text-xl font-semibold text-blue-700 mb-3">Очная форма обучения</div>
+                <div class="flex items-start gap-24 text-center justify-center">
+                    <div class="mt-5">Бюджет</div>
+                    <div class="">
+                        <div class="">Квалификация</div>
+                        <div class="">Оператор БПЛА</div>
+                    </div>
+                    <div class="">
+                        <div class="">На базе 9 классов</div>
+                        <div class="">3 года 10 месяцев</div>
+                    </div>
+                    <div class="">
+                        <div class="">На базе 11 классов</div>
+                        <div class="">2 года 10 месяцев</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
         <!-- Финальный блок с призывом -->
         <section class="text-center py-10 bg-gradient-to-r from-blue-50 to-cyan-50 rounded-2xl">
             <h2 class="text-3xl font-bold text-gray-900 mb-6">Начни карьеру в перспективной отрасли!</h2>
             <div class="inline-block px-8 py-3 bg-blue-600 text-white text-xl font-semibold rounded-lg hover:bg-blue-700 transition-colors">
-                СП-1-22
+                25.02.08
             </div>
             <p class="mt-6 text-lg text-gray-700 max-w-2xl mx-auto">
                 Присоединяйтесь к нам и станьте востребованным специалистом в области беспилотных авиационных систем!
             </p>
+        </section>
+
+        <!-- Адрес -->
+        <section class="mb-4 mt-4 text-center text-gray-700 text-lg">
+            <div class="grid ml-14 grid-cols-1 gap-8">
+                <div class="">
+                    <div class="font-bold">Юридический адрес:</div>
+                    <div class="">400011, Россия, г. Волгоград,  пр. Университетский, 34</div>
+                </div>
+                <div class="">
+                    <div class="font-bold">Фактический адрес:</div>
+                    <div class="">400007, Россия, г. Волгоград, пр. Металлургов, 17</div>
+                    <div class="">400064, Россия, г. Волгоград, ул. Нестерова, 1а</div>
+                    <div class="">400006, Россия, г. Волгоград, ул. Шурухина, 59</div>
+                    <div class="">400011, Россия, г. Волгоград,  пр. Университетский, 34</div>
+                </div>
+                <div class="">
+                    <div class="font-bold">Телефоны:</div>
+                    <div class="">8(8442) 45-91-21, 8(8442) 73-50-85 – приемная директора</div>
+                    <div class="">8(8442) 41-67-39, 8(8442) 45-91-48 - учебный отдел</div>
+                    <div class="">8(8442) 45-91-04, 8(8442) 72-94-02 – бухгалтерия</div>
+                </div>
+            </div>
         </section>
     </main>
 </body>
