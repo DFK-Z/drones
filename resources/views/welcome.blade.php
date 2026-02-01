@@ -16,17 +16,21 @@
 </head>
 <body class="bg-[#fafafa] text-gray-800">
     <main class="max-w-7xl mx-auto px-4 py-8">
+        <div class="mt-[-125px] mb-[-660px] ml-[50px]">
+            <img src="{{ asset('images/drone1.png') }}" alt="Картинка">
+        </div>
         <!-- Заголовок группы -->
-        <section class="mb-12 text-center">
+        <section class="mb-6 text-center">
+            <div class="text-5xl font-bold text-gray-900 mb-[25px]">Волгоградский технический колледж</div>
             <h1 class="text-4xl font-bold text-gray-900 mb-4">Беспилотные авиационные системы</h1>
-            <div class="inline-block px-6 py-2 bg-blue-600 text-white text-xl font-semibold rounded-lg hover:bg-blue-700 transition-colors">
+            <div class=" text-gray-900 text-2xl font-bold mt-[35px] ml-5">
                 25.02.08
             </div>
-            <p class="mt-4 text-lg text-gray-600">Специальность для будущих инженеров и операторов БПЛА</p>
+            <p class="mt-[525px] text-lg text-gray-600">Специальность для будущих инженеров и операторов БПЛА</p>
         </section>
 
         <!-- Чему научитесь -->
-        <section class="mb-16">
+        <section class="mb-8">
             <h2 class="text-3xl font-bold text-center mb-10 text-gray-900">За время учебы вы научитесь:</h2>
             <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
                 <!-- Левая колонка -->
@@ -70,7 +74,9 @@
                 </div>
             </div>
         </section>
-
+        <div class="mt-[-30px]">
+            <img src="{{ asset('images/Дрон5.png') }}" alt="Картинка">
+        </div>
         <!-- Преимущества обучения -->
         <section class="mb-16">
             <h2 class="text-3xl font-bold text-center mb-8 text-gray-900">Преимущества обучения в нашем колледже</h2>
@@ -120,7 +126,10 @@
                 </div>
             </div>
         </section>
-
+        <div class="flex ml-[300px] gap-28 mt-[-25px] mb-[25px]">
+            <img src="{{ asset('images/Дрон3.png') }}" alt="Картинка">
+            <img src="{{ asset('images/Дрон2.PNG') }}" alt="Картинка">
+        </div>
         <!-- Где сможете работать -->
         <section class="mb-16">
             <h2 class="text-3xl font-bold text-center mb-10 text-gray-900">Где вы сможете работать:</h2>
@@ -199,7 +208,9 @@
                 @endforeach
             </div>
         </section>
-
+        <div class="flex ml-[300px] gap-28 mt-[-25px] mb-[25px]">
+            <img src="{{ asset('images/Дрон4.PNG') }}" alt="Картинка">
+        </div>
         <!-- Сколько мы учимся -->
         <section>
             <div class="grid grid-cols-1 gap-5 bg-white p-3 rounded-xl shadow-md hover:shadow-lg transition-shadow mb-10 text-lg text-gray-700">
@@ -235,7 +246,11 @@
 
         <!-- Адрес -->
         <section class="mb-4 mt-4 text-center text-gray-700 text-lg">
-            <div class="grid ml-14 grid-cols-1 gap-8">
+            <div class="grid grid-cols-1 gap-8">
+                <div class="grid grid-cols-1 font-bold text-xl">
+                    <div class="">Волгоградский технический колледж</div>
+                    <div class="">Создаем будущее вместе</div>
+                </div>
                 <div class="">
                     <div class="font-bold">Юридический адрес:</div>
                     <div class="">400011, Россия, г. Волгоград,  пр. Университетский, 34</div>
