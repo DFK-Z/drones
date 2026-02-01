@@ -28,56 +28,7 @@
             </div>
             <p class="mt-[525px] text-lg text-gray-600">Специальность для будущих инженеров и операторов БПЛА</p>
         </section>
-
-        <!-- Чему научитесь -->
-        <section class="mb-8">
-            <h2 class="text-3xl font-bold text-center mb-10 text-gray-900">За время учебы вы научитесь:</h2>
-            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
-                <!-- Левая колонка -->
-                <div class="space-y-6">
-                    <div class="bg-white p-6 rounded-xl shadow-md hover:shadow-lg transition-shadow">
-                        <h3 class="text-xl font-semibold text-blue-700 mb-3">Организация и подготовка БАС</h3>
-                        <p class="text-gray-700">Организовывать и осуществлять предварительную и предполетную подготовку беспилотных авиационных систем самолетного и вертолетного типа в производственных условиях.</p>
-                    </div>
-                    <div class="bg-white p-6 rounded-xl shadow-md hover:shadow-lg transition-shadow">
-                        <h3 class="text-xl font-semibold text-blue-700 mb-3">Эксплуатация БАС</h3>
-                        <p class="text-gray-700">Организовывать и осуществлять эксплуатацию БАС с использованием дистанционно пилотируемых и автономных воздушных судов в ожидаемых условиях эксплуатации и особых ситуациях.</p>
-                    </div>
-                    <div class="bg-white p-6 rounded-xl shadow-md hover:shadow-lg transition-shadow">
-                        <h3 class="text-xl font-semibold text-blue-700 mb-3">Взаимодействие с управлением воздушным движением</h3>
-                        <p class="text-gray-700">Осуществлять взаимодействие со службами организации и управления воздушным движением при организации и выполнении полетов ДПВС.</p>
-                    </div>
-                    <div class="bg-white p-6 rounded-xl shadow-md hover:shadow-lg transition-shadow">
-                        <h3 class="text-xl font-semibold text-blue-700 mb-3">Обработка данных</h3>
-                        <p class="text-gray-700">Осуществлять обработку данных, полученных при использовании дистанционно пилотируемых воздушных судов самолетного и вертолетного типа.</p>
-                    </div>
-                </div>
-
-                <!-- Правая колонка -->
-                <div class="space-y-6">
-                    <div class="bg-white p-6 rounded-xl shadow-md hover:shadow-lg transition-shadow">
-                        <h3 class="text-xl font-semibold text-blue-700 mb-3">Проверка исправности оборудования</h3>
-                        <p class="text-gray-700">Осуществлять комплекс мероприятий по проверке исправности, работоспособности и готовности ДПВС, станции внешнего пилота, систем обеспечения полетов к использованию.</p>
-                    </div>
-                    <div class="bg-white p-6 rounded-xl shadow-md hover:shadow-lg transition-shadow">
-                        <h3 class="text-xl font-semibold text-blue-700 mb-3">Учет и документация</h3>
-                        <p class="text-gray-700">Вести учёт срока службы, наработки объектов эксплуатации, причин отказов, неисправностей и повреждений беспилотных воздушных судов.</p>
-                    </div>
-                    <div class="bg-white p-6 rounded-xl shadow-md hover:shadow-lg transition-shadow">
-                        <h3 class="text-xl font-semibold text-blue-700 mb-3">Техническая эксплуатация</h3>
-                        <p class="text-gray-700">Осуществлять техническую эксплуатацию бортовых систем и оборудования полезной нагрузки, вычислительных устройств и систем.</p>
-                    </div>
-                    <div class="bg-white p-6 rounded-xl shadow-md hover:shadow-lg transition-shadow">
-                        <h3 class="text-xl font-semibold text-blue-700 mb-3">Контроль качества</h3>
-                        <p class="text-gray-700">Осуществлять контроль качества выполняемых работ и ведение эксплуатационно-технической документации.</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <div class="mt-[-30px]">
-            <img src="{{ asset('images/Дрон5.png') }}" alt="Картинка">
-        </div>
-        <!-- Преимущества обучения -->
+         <!-- Преимущества обучения -->
         <section class="mb-16">
             <h2 class="text-3xl font-bold text-center mb-8 text-gray-900">Преимущества обучения в нашем колледже</h2>
             <p class="text-xl text-center mb-10 text-gray-700">Мы предоставляем все условия для получения качественного образования:</p>
@@ -122,6 +73,54 @@
                             <span class="text-white font-bold">✓</span>
                         </div>
                         <p class="text-lg text-gray-700">Бесплатное получение дополнительной рабочей профессии</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="mt-[-50px]">
+            <img src="{{ asset('images/Дрон5.png') }}" alt="Картинка">
+        </div>
+        <!-- Чему научитесь -->
+        <section class="mb-12">
+            <h2 class="text-3xl font-bold text-center mb-10 text-gray-900">За время учебы вы научитесь:</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <!-- Левая колонка -->
+                <div class="space-y-6">
+                    <div class="bg-white p-6 rounded-xl shadow-md hover:shadow-lg transition-shadow">
+                        <h3 class="text-xl font-semibold text-blue-700 mb-3">Организация и подготовка БАС</h3>
+                        <p class="text-gray-700">Организовывать и осуществлять предварительную и предполетную подготовку беспилотных авиационных систем самолетного и вертолетного типа в производственных условиях.</p>
+                    </div>
+                    <div class="bg-white p-6 rounded-xl shadow-md hover:shadow-lg transition-shadow">
+                        <h3 class="text-xl font-semibold text-blue-700 mb-3">Эксплуатация БАС</h3>
+                        <p class="text-gray-700">Организовывать и осуществлять эксплуатацию БАС с использованием дистанционно пилотируемых и автономных воздушных судов в ожидаемых условиях эксплуатации и особых ситуациях.</p>
+                    </div>
+                    <div class="bg-white p-6 rounded-xl shadow-md hover:shadow-lg transition-shadow">
+                        <h3 class="text-xl font-semibold text-blue-700 mb-3">Взаимодействие с управлением воздушным движением</h3>
+                        <p class="text-gray-700">Осуществлять взаимодействие со службами организации и управления воздушным движением при организации и выполнении полетов ДПВС.</p>
+                    </div>
+                    <div class="bg-white p-6 rounded-xl shadow-md hover:shadow-lg transition-shadow">
+                        <h3 class="text-xl font-semibold text-blue-700 mb-3">Обработка данных</h3>
+                        <p class="text-gray-700">Осуществлять обработку данных, полученных при использовании дистанционно пилотируемых воздушных судов самолетного и вертолетного типа.</p>
+                    </div>
+                </div>
+
+                <!-- Правая колонка -->
+                <div class="space-y-6">
+                    <div class="bg-white p-6 rounded-xl shadow-md hover:shadow-lg transition-shadow">
+                        <h3 class="text-xl font-semibold text-blue-700 mb-3">Проверка исправности оборудования</h3>
+                        <p class="text-gray-700">Осуществлять комплекс мероприятий по проверке исправности, работоспособности и готовности ДПВС, станции внешнего пилота, систем обеспечения полетов к использованию.</p>
+                    </div>
+                    <div class="bg-white p-6 rounded-xl shadow-md hover:shadow-lg transition-shadow">
+                        <h3 class="text-xl font-semibold text-blue-700 mb-3">Учет и документация</h3>
+                        <p class="text-gray-700">Вести учёт срока службы, наработки объектов эксплуатации, причин отказов, неисправностей и повреждений беспилотных воздушных судов.</p>
+                    </div>
+                    <div class="bg-white p-6 rounded-xl shadow-md hover:shadow-lg transition-shadow">
+                        <h3 class="text-xl font-semibold text-blue-700 mb-3">Техническая эксплуатация</h3>
+                        <p class="text-gray-700">Осуществлять техническую эксплуатацию бортовых систем и оборудования полезной нагрузки, вычислительных устройств и систем.</p>
+                    </div>
+                    <div class="bg-white p-6 rounded-xl shadow-md hover:shadow-lg transition-shadow">
+                        <h3 class="text-xl font-semibold text-blue-700 mb-3">Контроль качества</h3>
+                        <p class="text-gray-700">Осуществлять контроль качества выполняемых работ и ведение эксплуатационно-технической документации.</p>
                     </div>
                 </div>
             </div>
